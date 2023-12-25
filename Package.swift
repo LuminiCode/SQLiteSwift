@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SQLite.swift",
+    name: "SQLiteSwift.swift",
     platforms: [
         .iOS(.v11),
         .macOS(.v10_13),
