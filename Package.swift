@@ -12,12 +12,12 @@ let package = Package(
     products: [
         .library(
             name: "SQLiteSwift",
-            targets: ["SQLiteSwift"]
+            targets: ["SQLite"]
         )
     ],
     targets: [
         .target(
-            name: "SQLiteSwift",
+            name: "SQLite",
             exclude: [
                 "Info.plist"
             ]
